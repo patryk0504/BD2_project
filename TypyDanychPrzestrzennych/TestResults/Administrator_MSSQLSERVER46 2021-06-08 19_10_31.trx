@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="10724afa-64e4-4590-ad2d-885e75980557" name="Administrator@MSSQLSERVER46 2021-06-08 19:10:31" runUser="MSSQLSERVER46\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="bd454a8c-6d30-410a-8ddd-a96b5ebeade3">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TestResults\Administrator_MSSQLSERVER46 2021-06-08 19_10_31" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>A .NET Framework error occurred during execution of user-defined routine or aggregate "Point": 
+System.FormatException: Nieprawidłowy format ciągu wejściowego.
+System.FormatException: 
+   w System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   w System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   w System.Int32.Parse(String s)
+   w Point.Parse(SqlString s)
+.
+The statement has been terminated.
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <Times creation="2021-06-08T19:10:31.0180000+02:00" queuing="2021-06-08T19:10:33.8220000+02:00" start="2021-06-08T19:10:34.1910000+02:00" finish="2021-06-08T19:10:34.8660000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestPointTryToInsertInvalidXPoint" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="21fdf4aa-721c-ccc2-d9e2-bf31ec4900a3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="36c3458a-f23b-4086-8c8a-1f0098a0d248" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointTryToInsertInvalidXPoint" />
+    </UnitTest>
+    <UnitTest name="TestPointGetX" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="a67a157d-fb04-f7be-6367-f7f83c362978">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="56f2630f-fac5-4877-90ef-f7bb0553b5a3" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointGetX" />
+    </UnitTest>
+    <UnitTest name="TestPointGetY" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="de6c7280-5b6d-7a64-dac2-7af45f52d9fc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bcdafa5a-a95f-4dc8-b39b-f6bc1babab05" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointGetY" />
+    </UnitTest>
+    <UnitTest name="TestPointDistance" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bea33f3f-80e3-4aae-9346-fdae8202606a" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointDistance" />
+    </UnitTest>
+    <UnitTest name="TestPointTryToInsertInvalidYPoint" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="b9b36b4c-9640-dab0-0326-ca23a1873f26">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="05038418-7b72-42e4-917f-a0368ae22fde" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointTryToInsertInvalidYPoint" />
+    </UnitTest>
+    <UnitTest name="TestPointToString" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="dd4ae2ec-a044-751d-9d5f-cfcd08988655">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6da87aca-32e3-42b9-98b4-c88b9f36adce" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointToString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21fdf4aa-721c-ccc2-d9e2-bf31ec4900a3" executionId="36c3458a-f23b-4086-8c8a-1f0098a0d248" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a" executionId="bea33f3f-80e3-4aae-9346-fdae8202606a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a67a157d-fb04-f7be-6367-f7f83c362978" executionId="56f2630f-fac5-4877-90ef-f7bb0553b5a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9b36b4c-9640-dab0-0326-ca23a1873f26" executionId="05038418-7b72-42e4-917f-a0368ae22fde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd4ae2ec-a044-751d-9d5f-cfcd08988655" executionId="6da87aca-32e3-42b9-98b4-c88b9f36adce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de6c7280-5b6d-7a64-dac2-7af45f52d9fc" executionId="bcdafa5a-a95f-4dc8-b39b-f6bc1babab05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36c3458a-f23b-4086-8c8a-1f0098a0d248" testId="21fdf4aa-721c-ccc2-d9e2-bf31ec4900a3" testName="TestPointTryToInsertInvalidXPoint" computerName="MSSQLSERVER46" duration="00:00:00.0097275" startTime="2021-06-08T19:10:34.2710000+02:00" endTime="2021-06-08T19:10:34.6260000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Test passed
+A .NET Framework error occurred during execution of user-defined routine or aggregate "Point": 
+System.FormatException: Nieprawidłowy format ciągu wejściowego.
+System.FormatException: 
+   w System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   w System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   w System.Int32.Parse(String s)
+   w Point.Parse(SqlString s)
+.
+The statement has been terminated.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bea33f3f-80e3-4aae-9346-fdae8202606a" testId="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a" testName="TestPointDistance" computerName="MSSQLSERVER46" duration="00:00:00.0035696" startTime="2021-06-08T19:10:34.6460000+02:00" endTime="2021-06-08T19:10:34.6520000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56f2630f-fac5-4877-90ef-f7bb0553b5a3" testId="a67a157d-fb04-f7be-6367-f7f83c362978" testName="TestPointGetX" computerName="MSSQLSERVER46" duration="00:00:00.0021829" startTime="2021-06-08T19:10:34.6550000+02:00" endTime="2021-06-08T19:10:34.6590000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05038418-7b72-42e4-917f-a0368ae22fde" testId="b9b36b4c-9640-dab0-0326-ca23a1873f26" testName="TestPointTryToInsertInvalidYPoint" computerName="MSSQLSERVER46" duration="00:00:00.0016982" startTime="2021-06-08T19:10:34.6610000+02:00" endTime="2021-06-08T19:10:34.6650000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Test passed
+A .NET Framework error occurred during execution of user-defined routine or aggregate "Point": 
+System.FormatException: Nieprawidłowy format ciągu wejściowego.
+System.FormatException: 
+   w System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   w System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   w System.Int32.Parse(String s)
+   w Point.Parse(SqlString s)
+.
+The statement has been terminated.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6da87aca-32e3-42b9-98b4-c88b9f36adce" testId="dd4ae2ec-a044-751d-9d5f-cfcd08988655" testName="TestPointToString" computerName="MSSQLSERVER46" duration="00:00:00.0018674" startTime="2021-06-08T19:10:34.6680000+02:00" endTime="2021-06-08T19:10:34.6720000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bcdafa5a-a95f-4dc8-b39b-f6bc1babab05" testId="de6c7280-5b6d-7a64-dac2-7af45f52d9fc" testName="TestPointGetY" computerName="MSSQLSERVER46" duration="00:00:00.0022885" startTime="2021-06-08T19:10:34.6750000+02:00" endTime="2021-06-08T19:10:34.6790000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

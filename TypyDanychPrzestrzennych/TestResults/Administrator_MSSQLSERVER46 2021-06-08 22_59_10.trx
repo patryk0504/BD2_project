@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="df6ad3a1-5335-4090-8bad-9a1d47ee5a63" name="Administrator@MSSQLSERVER46 2021-06-08 22:59:10" runUser="MSSQLSERVER46\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="bd454a8c-6d30-410a-8ddd-a96b5ebeade3">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TestResults\Administrator_MSSQLSERVER46 2021-06-08 22_59_10" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2021-06-08T22:59:10.4620000+02:00" queuing="2021-06-08T22:59:10.8630000+02:00" start="2021-06-08T22:59:11.0070000+02:00" finish="2021-06-08T22:59:13.0520000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestPointGetY" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="de6c7280-5b6d-7a64-dac2-7af45f52d9fc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4bdf2e68-88b7-4b48-b771-fac80300472b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointGetY" />
+    </UnitTest>
+    <UnitTest name="TestPointGetX" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="a67a157d-fb04-f7be-6367-f7f83c362978">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="12f08a28-5078-44ae-8c92-55e0cc0399aa" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointGetX" />
+    </UnitTest>
+    <UnitTest name="TestPolygonArea" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="1769bc11-4ce2-d2ae-fc39-a013ace3f943">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e865fcf9-93de-4e88-9c7d-bcfb92b28c1e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPolygon, UnitTests" name="TestPolygonArea" />
+    </UnitTest>
+    <UnitTest name="TestPointDistance" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="aae34f63-ecfd-4040-b53e-2ed6ca955ff1" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointDistance" />
+    </UnitTest>
+    <UnitTest name="TestPolygonToString" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="19dab8ac-d837-b5f3-eaaa-777f86efc55b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="77d2aef5-2e18-44a6-9446-87c597ea41ce" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPolygon, UnitTests" name="TestPolygonToString" />
+    </UnitTest>
+    <UnitTest name="TestPointToString" storage="c:\users\administrator\desktop\projektbd\typydanychprzestrzennych\unittests\bin\debug\unittests.dll" id="dd4ae2ec-a044-751d-9d5f-cfcd08988655">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="59fd866d-ead6-4fca-8ef8-00c8cff116ae" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTestPoint, UnitTests" name="TestPointToString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1769bc11-4ce2-d2ae-fc39-a013ace3f943" executionId="e865fcf9-93de-4e88-9c7d-bcfb92b28c1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19dab8ac-d837-b5f3-eaaa-777f86efc55b" executionId="77d2aef5-2e18-44a6-9446-87c597ea41ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a" executionId="aae34f63-ecfd-4040-b53e-2ed6ca955ff1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a67a157d-fb04-f7be-6367-f7f83c362978" executionId="12f08a28-5078-44ae-8c92-55e0cc0399aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd4ae2ec-a044-751d-9d5f-cfcd08988655" executionId="59fd866d-ead6-4fca-8ef8-00c8cff116ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de6c7280-5b6d-7a64-dac2-7af45f52d9fc" executionId="4bdf2e68-88b7-4b48-b771-fac80300472b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e865fcf9-93de-4e88-9c7d-bcfb92b28c1e" testId="1769bc11-4ce2-d2ae-fc39-a013ace3f943" testName="TestPolygonArea" computerName="MSSQLSERVER46" duration="00:00:00.0020497" startTime="2021-06-08T22:59:11.0660000+02:00" endTime="2021-06-08T22:59:11.2660000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77d2aef5-2e18-44a6-9446-87c597ea41ce" testId="19dab8ac-d837-b5f3-eaaa-777f86efc55b" testName="TestPolygonToString" computerName="MSSQLSERVER46" duration="00:00:00.0021089" startTime="2021-06-08T22:59:11.2700000+02:00" endTime="2021-06-08T22:59:11.2750000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aae34f63-ecfd-4040-b53e-2ed6ca955ff1" testId="5a6ad1c4-6a93-c6bb-f18e-1cd266c6467a" testName="TestPointDistance" computerName="MSSQLSERVER46" duration="00:00:00.0024165" startTime="2021-06-08T22:59:11.2770000+02:00" endTime="2021-06-08T22:59:11.2870000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12f08a28-5078-44ae-8c92-55e0cc0399aa" testId="a67a157d-fb04-f7be-6367-f7f83c362978" testName="TestPointGetX" computerName="MSSQLSERVER46" duration="00:00:00.0019680" startTime="2021-06-08T22:59:11.2900000+02:00" endTime="2021-06-08T22:59:11.2950000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59fd866d-ead6-4fca-8ef8-00c8cff116ae" testId="dd4ae2ec-a044-751d-9d5f-cfcd08988655" testName="TestPointToString" computerName="MSSQLSERVER46" duration="00:00:00.0021065" startTime="2021-06-08T22:59:11.2970000+02:00" endTime="2021-06-08T22:59:11.3020000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bdf2e68-88b7-4b48-b771-fac80300472b" testId="de6c7280-5b6d-7a64-dac2-7af45f52d9fc" testName="TestPointGetY" computerName="MSSQLSERVER46" duration="00:00:00.0018356" startTime="2021-06-08T22:59:11.3040000+02:00" endTime="2021-06-08T22:59:11.3080000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

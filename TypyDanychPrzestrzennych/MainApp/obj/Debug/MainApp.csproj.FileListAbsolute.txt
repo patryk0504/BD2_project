@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\MainApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\MainApp\bin\Debug\MainApp.exe
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\MainApp\bin\Debug\MainApp.pdb
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\MainApp\obj\Debug\MainApp.exe
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\MainApp\obj\Debug\MainApp.pdb
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\MainApp\obj\Debug\MainApp.exe
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\MainApp\obj\Debug\MainApp.pdb

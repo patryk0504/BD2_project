@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\Sledz_Patryk_projekt\TypyDanychPrzestrzennych\TypyDanychPrzestrzennych\obj\Debug\SqlClassLibrary.pdb

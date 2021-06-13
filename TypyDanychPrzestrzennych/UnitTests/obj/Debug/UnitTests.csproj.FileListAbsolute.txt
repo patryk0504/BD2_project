@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Administrator\Desktop\projektBD\TypyDanychPrzestrzennych\UnitTests\obj\Debug\UnitTests.pdb
